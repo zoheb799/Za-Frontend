@@ -10,7 +10,7 @@ import {
   replaceChatHistory,
   setCurrentConversation,
 } from "../../redux/chatSlice.js";
-import axios from "axios";
+import axios from "../../api/axios.js"
 
 function Messages() {
   const dispatch = useDispatch();

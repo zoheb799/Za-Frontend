@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "primeicons/primeicons.css";
 import { useSelector, useDispatch } from "react-redux";
-import axios from "axios";
+import axios from "../api/axios.js"
 import { toast } from "react-toastify";
 import { signOutUser } from "../redux/userSlice";
 import { fetchConversations } from "../redux/chatSlice";

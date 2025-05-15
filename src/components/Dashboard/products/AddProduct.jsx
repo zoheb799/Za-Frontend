@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
-import axios from "axios";
+import axios from "../../../api/axios.js";
 import {toast} from "react-toastify";
 import { useSelector } from "react-redux";
 import { ProgressSpinner } from "primereact/progressspinner";

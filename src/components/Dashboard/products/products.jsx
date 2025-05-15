@@ -11,7 +11,7 @@ import { InputIcon } from "primereact/inputicon";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Skeleton } from "primereact/skeleton";
-import axios from "axios";
+import axios from "../../../api/axios.js";
 import { toast } from "react-toastify";
 import AddProduct from "./AddProduct";
 import DeleteModal from "../../../shared/DeleteModal";

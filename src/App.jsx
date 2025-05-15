@@ -33,6 +33,8 @@ import { fetchProducts } from "./redux/productSlice.js";
 
 
 function App() {
+
+
 	const location = useLocation();
 	const [isOnline, setIsOnline] = useState(navigator.onLine);
 	const dispatch = useDispatch();

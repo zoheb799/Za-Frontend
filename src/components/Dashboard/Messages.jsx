@@ -9,7 +9,7 @@ import {
     addMessage,
     replaceChatHistory,
 } from "../../redux/chatSlice.js";
-import axios from "axios";
+import axios from "../../api/axios.js";
 import { toast } from "react-toastify";
 
 function Messages() {

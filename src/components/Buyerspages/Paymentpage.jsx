@@ -5,7 +5,7 @@ import { CardElement } from "@stripe/react-stripe-js";
 import { ToastContainer, toast } from "react-toastify";
 import { Button } from "primereact/button";
 import { ProgressSpinner } from "primereact/progressspinner";
-import axios from "axios";
+import axios from "../../api/axios.js";
 import 'primereact/resources/themes/lara-light-blue/theme.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSelector } from "react-redux";

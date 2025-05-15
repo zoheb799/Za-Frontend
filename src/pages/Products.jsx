@@ -3,7 +3,7 @@ import { Button } from "primereact/button";
 import { Rating } from "primereact/rating";
 import { Tag } from "primereact/tag";
 import { Skeleton } from "primereact/skeleton";
-import axios from "axios";
+import axios from "../api/axios.js";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";

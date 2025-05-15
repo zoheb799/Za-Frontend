@@ -6,7 +6,7 @@ import { InputIcon } from "primereact/inputicon";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { Skeleton } from "primereact/skeleton";
-import axios from "axios";
+import axios from "../../../api/axios.js";
 import { debounce } from "lodash";
 import { useSelector } from "react-redux";
 

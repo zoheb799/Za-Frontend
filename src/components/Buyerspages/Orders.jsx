@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../../api/axios.js";
 import { Tag } from "primereact/tag";
 import { Rating } from "primereact/rating";
 import { Skeleton } from "primereact/skeleton";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-
 import "primereact/resources/themes/lara-light-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 
+
+
 const OrdersBuyerPage = () => {
+  
 	const [orders, setOrders] = useState([]);
 	const [loading, setLoading] = useState(false);
 	const { currentUser } = useSelector((state) => state.user);
